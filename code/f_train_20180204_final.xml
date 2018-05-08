@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<model>
+		<config>
+			<field name="model_code" value="tianchi_medicine"/>
+			<field name="version_id" value="f_train_20180204"/>
+			<field name="db_name" value="sx_wj_safe"/>
+			<field name="table_name" value="f_train_20180204.csv"/>
+			<field name="test_data" value="f_test_a_20180204.csv"/>
+			<field name="bin_num" value="5"/>
+			<field name="target" value="['label']"/>
+			<field name="id_columns" value="['id']"/>
+			<field name="ex_columns" value="[]"/>
+			<field name="dict" value="tuoluo_dictionary.txt"/>
+			<field name="name" value="zhounanguang"/>
+		</config>
+		<cross>
+			<field name="element1" value=""/>
+			<field name="element1" value=""/>
+		</cross>
+		<data>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP1" type="string" zh_name="SNP1"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP2" type="string" zh_name="SNP2"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP3" type="string" zh_name="SNP3"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP4" type="string" zh_name="SNP4"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP5" type="string" zh_name="SNP5"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP6" type="string" zh_name="SNP6"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP7" type="string" zh_name="SNP7"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP8" type="string" zh_name="SNP8"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP9" type="string" zh_name="SNP9"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP10" type="string" zh_name="SNP10"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP11" type="string" zh_name="SNP11"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP12" type="string" zh_name="SNP12"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP13" type="string" zh_name="SNP13"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP14" type="string" zh_name="SNP14"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP15" type="string" zh_name="SNP15"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP16" type="string" zh_name="SNP16"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP17" type="string" zh_name="SNP17"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP18" type="string" zh_name="SNP18"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP19" type="string" zh_name="SNP19"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP20" type="string" zh_name="SNP20"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP21" type="string" zh_name="SNP21"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP22" type="string" zh_name="SNP22"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP23" type="string" zh_name="SNP23"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="RBP4" type="double" zh_name="RBP4"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="年龄" type="double" zh_name="年龄"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="孕次" type="string" zh_name="孕次"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="产次" type="string" zh_name="产次"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="身高" type="double" zh_name="身高"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="孕前体重" type="double" zh_name="孕前体重"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="BMI分类" type="string" zh_name="BMI分类"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="孕前BMI" type="double" zh_name="孕前BMI"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="收缩压" type="double" zh_name="收缩压"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="舒张压" type="double" zh_name="舒张压"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="分娩时" type="double" zh_name="分娩时"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="糖筛孕周" type="double" zh_name="糖筛孕周"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="VAR00007" type="double" zh_name="VAR00007"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="wbc" type="double" zh_name="wbc"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="ALT" type="double" zh_name="ALT"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="AST" type="double" zh_name="AST"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="Cr" type="double" zh_name="Cr"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="BUN" type="double" zh_name="BUN"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="CHO" type="double" zh_name="CHO"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="TG" type="double" zh_name="TG"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="HDLC" type="double" zh_name="HDLC"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="LDLC" type="double" zh_name="LDLC"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="ApoA1" type="double" zh_name="ApoA1"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="ApoB" type="double" zh_name="ApoB"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="Lpa" type="double" zh_name="Lpa"/>
+			<field binning_num="5" binning_type="percentile" m_type="连续型" missing="" name="hsCRP" type="double" zh_name="hsCRP"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP24" type="string" zh_name="SNP24"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP25" type="string" zh_name="SNP25"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP26" type="string" zh_name="SNP26"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP27" type="string" zh_name="SNP27"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP28" type="string" zh_name="SNP28"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP29" type="string" zh_name="SNP29"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP30" type="string" zh_name="SNP30"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP31" type="string" zh_name="SNP31"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP32" type="string" zh_name="SNP32"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP33" type="string" zh_name="SNP33"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP34" type="string" zh_name="SNP34"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP35" type="string" zh_name="SNP35"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP36" type="string" zh_name="SNP36"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP37" type="string" zh_name="SNP37"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP38" type="string" zh_name="SNP38"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="DM家族史" type="string" zh_name="DM家族史"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP39" type="string" zh_name="SNP39"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP40" type="string" zh_name="SNP40"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP41" type="string" zh_name="SNP41"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP42" type="string" zh_name="SNP42"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP43" type="string" zh_name="SNP43"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP44" type="string" zh_name="SNP44"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP45" type="string" zh_name="SNP45"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP46" type="string" zh_name="SNP46"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP47" type="string" zh_name="SNP47"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP48" type="string" zh_name="SNP48"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP49" type="string" zh_name="SNP49"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP50" type="string" zh_name="SNP50"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP51" type="string" zh_name="SNP51"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP52" type="string" zh_name="SNP52"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP53" type="string" zh_name="SNP53"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP54" type="string" zh_name="SNP54"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="SNP55" type="string" zh_name="SNP55"/>
+			<field binning_num="0" binning_type="percentile" m_type="字符型" missing="" name="ACEID" type="string" zh_name="ACEID"/>
+		</data>
+	</model>
